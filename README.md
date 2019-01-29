@@ -13,3 +13,16 @@ A JavaScript Library for building user interfaces. The interface is broken down 
 <a href="https://reactjs.org/">This is the link</a>
 </p>
 
+<h3>How is React </h3>
+<dl>
+
+    <dt>React</dt>
+    <dd>This library contains the logic to create React Components</dd>
+
+    <dt>React DOM</dt>
+    <dd>This library contains the logic to render the component in the DOM</dd>
+
+    <dt>Redux</dt>
+    <dd>This library helps react to maintain better state of the application by logging operations over component states</dd>
+</dl>
+
