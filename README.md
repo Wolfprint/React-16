@@ -1,7 +1,7 @@
 # React-16
 Tutorial using React 16, Redux and React Router 4
 
-![Alt text](/Images/react_logo?raw=true "Optional Title")
+![React Logo](/Images/react_logo.png?raw=true "React Logo")
 
 <h3>What is React</h3>
 <p>
