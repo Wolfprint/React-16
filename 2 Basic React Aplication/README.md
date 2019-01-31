@@ -30,3 +30,8 @@ For this tutorial to worked you have to follow this basic steps:
 #
 ![React Logo](./Images/Basic Folder Structure.png?raw=true "React Logo")
 |||---|||
+
+
+|||---||| :6,3
+#### Right
+|||---|||
