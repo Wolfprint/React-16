@@ -35,7 +35,7 @@ To create your own component, you have to follow this simple steps:
 
     ![your component js](../Images/declaring-your-component.PNG?raw=true "Create your own component")
 
-##Function components
+## Function components
 
 The simplest way to define a React Component is to write a JavaScript function
 
@@ -58,7 +58,7 @@ function Wellcome(){
 
 We call such components "function components" because they are literally JavaScript functions.
 
-##Class components
+## Class components
 
 You can also use a ES6 class to define a component, like this:
 
@@ -75,7 +75,7 @@ class Person extends React.Component{
 }
 ```
 
-#Function vs Class Components
+# Function vs Class Components
 
 Both classes and function components are equivalen from React´s point of view. Classes have some additional features that will discuss in a future section.
 
