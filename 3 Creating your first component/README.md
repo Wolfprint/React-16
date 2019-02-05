@@ -37,6 +37,8 @@ To create your own component, you have to follow this simple steps:
 
 #Function vs Class Components
 
+##Function components
+
 The simplest way to define a React Component is to write a JavaScript function
 
 ```javascript
@@ -44,5 +46,36 @@ function Wellcome(props){
     return <h1>Hello, {props.name}</h1>;
 }
 ```
+
+In order for a function to be consider a valid React component it should follow this rules:
+
+* Have to be empty or accept a single "props" (which stands for properties) object argument with data.
+* Return a React component (HTML / JSX).
+
+```javascript
+function Wellcome(){
+    return <h1>Hello World</h1>;
+}
+```
+
+We call such components "function components" because they are literally JavaScript functions.
+
+##Class components
+
+You can also use a ES6 class to define a component, like this:
+
+```javascript
+class Person extends React.Component{
+    render(props){
+        return (
+            <p>
+                Name: {props.name} <br/>
+                Age: {props.age}
+            </p>
+        );
+    }
+}
+```
+
 
 For more detailed information please [click here](https://reactjs.org/docs/components-and-props.html)
