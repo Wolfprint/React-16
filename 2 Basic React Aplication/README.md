@@ -17,8 +17,8 @@ For this tutorial to worked you have to follow this basic steps:
     create-react-app NAME_OF_APP
     ```
 
-This will create a new React App on the specify folder, it may takes sevelar minutes for npm to download all the js libraries that the proyect requires. After it is finished, you will see 
-a message like this:
+    This will create a new React App on the specify folder, it may takes sevelar minutes for npm to download all the js libraries that the proyect requires. After it is finished, you will see 
+    a message like this:
 
     ![npm create-react-app result](../Images/npm-create-react-app.PNG?raw=true "Create react app result")
 
@@ -30,8 +30,8 @@ a message like this:
     cd "PATH_TO_YOUR_APPLICATION_FOLDER"
     npm start
     ```
-Once the development server and the task is excecuted, you shall not close this command console, so the process can 
-continue running. You will get something like this:
+    Once the development server and the task is excecuted, you shall not close this command console, so the process can 
+    continue running. You will get something like this:
 
     ![npm start](../Images/npm-start-running.PNG?raw=true "npm start command running")
 
@@ -46,5 +46,4 @@ node_modules | public        | src | package.json
 Content from cell 1 | Content from cell 2
  | 
 
-
-    ![folder structure](./Images/Basic Folder Structure.png?raw=true "Basic React App Folder Structure")
+![folder structure](../Images/basic-folder-structure.PNG?raw=true "Basic React App Folder Structure")
