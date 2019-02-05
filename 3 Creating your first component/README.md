@@ -20,15 +20,15 @@ To create your own component, you have to follow this simple steps:
 
     * Import React Component library. If you are working with function, you should import it as
 
-    ```javascript
-    import React from 'react';
-    ```
+        ```javascript
+        import React from 'react';
+        ```
 
-    or if you are working with objects wou should import it as
+        or if you are working with objects wou should import it as
 
-    ```javascript
-    import React, { Component } from 'react';
-    ```
+        ```javascript
+        import React, { Component } from 'react';
+        ```
 
     * Declare your component (as a JS function or as an Object)
     * Export your component as default
