@@ -1,4 +1,4 @@
-# Creating your First Component
+# Creating a Component
 
 Components let you split the UI of your page into independent, reusable pieces that can be controlled in isoletion.
 
@@ -6,11 +6,14 @@ Component are like JavaScript functions, they accept arbitrary inputs (called "p
 
 To create your own component, you have to follow this simple steps:
 
-1. Create a folder with the name of your component starting with a capital leter
+1. Create a folder with the name of your component 
 
     ```shell
     mkdir Person
     ```
+
+Remember that a component name should start with capital letters.
+{: .alert .alert-warning}
 
 2. Inside this folder you will create a JS file that will contain your component definition. Here you should also place any image, css or unitary testing file that belongs to your component
 
@@ -75,8 +78,10 @@ class Person extends React.Component{
 }
 ```
 
-# Function vs Class Components
+## Function vs Class Components
 
-Both classes and function components are equivalen from React´s point of view. Classes have some additional features that will discuss in a future section.
+Both class and function components are equivalent from React´s point of view. Classes have some additional features that will discuss in a future section.
+
+## Rendering a Component
 
 For more detailed information please [click here](https://reactjs.org/docs/components-and-props.html)
