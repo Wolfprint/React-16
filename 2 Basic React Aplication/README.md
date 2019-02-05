@@ -44,6 +44,5 @@ For this tutorial to worked you have to follow this basic steps:
 node_modules | public        | src | package.json     
 ------------ | ------------- | --- | -------------
 Content from cell 1 | Content from cell 2
- | 
 
 ![folder structure](../Images/basic-folder-structure.PNG?raw=true "Basic React App Folder Structure")
