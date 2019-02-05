@@ -8,10 +8,10 @@ Component are like JavaScript functions, they accept arbitrary inputs (called "p
 
 The simplest way to define a React Component is to write a JavaScript function
 
-    ```javascript
-    function Wellcome(props){
-        return <h1>Hello, {props.name}</h1>;
-    }
-    ```
+```javascript
+function Wellcome(props){
+    return <h1>Hello, {props.name}</h1>;
+}
+```
 
 For more detailed information please [click here](https://reactjs.org/docs/components-and-props.html)
