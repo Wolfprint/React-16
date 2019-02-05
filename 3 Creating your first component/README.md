@@ -12,9 +12,9 @@ To create your own component, you have to follow this simple steps:
     mkdir Person
     ```
 
-<aside class="warning">
-Remember that a component name should start with capital letters.
-</aside>
+    <aside class="warning">
+        Remember that a component name should start with capital letters.
+    </aside>
 
 2. Inside this folder you will create a JS file that will contain your component definition. Here you should also place any image, css or unitary testing file that belongs to your component
 
