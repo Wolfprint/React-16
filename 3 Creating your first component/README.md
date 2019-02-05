@@ -18,8 +18,19 @@ To create your own component, you have to follow this simple steps:
 
 3. Inside your "Component.js" file you have to have three important things
 
-    * Import React Component library
-    * Declare your component
+    * Import React Component library. If you are working with function, you should import it as
+
+    ```javascript
+    import React from 'react';
+    ```
+
+    or if you are working with objects wou should import it as
+
+    ```javascript
+    import React, { Component } from 'react';
+    ```
+
+    * Declare your component (as a JS function or as an Object)
     * Export your component as default
 
     ![your component js](../Images/declaring-your-component.PNG?raw=true "Create your own component")
